@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>1.0.0</Version>
+    <Authors>The real Globals</Authors>
+    <Company>-</Company>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Flurl" Version="2.8.2" />
+    <PackageReference Include="Flurl.Http" Version="2.4.2" />
+    <PackageReference Include="Microsoft.Rest.ClientRuntime" Version="2.3.20" />
+    <PackageReference Include="RestSharp" Version="106.6.10" />
+    <PackageReference Include="Selenium.Chrome.WebDriver" Version="76.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary2\DataProvider.csproj" />
+    <ProjectReference Include="..\CrossBrowserTesting\CrossBrowserTesting.csproj" />
+    <ProjectReference Include="..\Helper\UiHelper.csproj" />
+  </ItemGroup>
+</Project>
